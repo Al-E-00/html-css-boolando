@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* setting up the header of the page */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    background-color: #FF6900;
+}
+
+header .left-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header .left-menu ul li {
+    list-style: none
+}
+
+header .left-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+header .logo-container img {
+    width: 110px;
+    position: relative;
+    right: 30px;
+}
+
+header .right-menu {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    gap: 6px;
+    color: white;
+}
+
+/* content of the page with the differrents clothes */
+
+.content {
+    width: 75%;
+    margin: 2% auto; 
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.content-box-description {
+    display: flex;
+    flex-direction: column;
+}
+
+
