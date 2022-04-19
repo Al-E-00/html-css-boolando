@@ -54,18 +54,46 @@ header .right-menu {
 
 .content {
     width: 75%;
-    margin: 2% auto; 
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .content-box {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 340px;
 }
 
 .content-box-description {
     display: flex;
     flex-direction: column;
+    padding-top: 5px;
 }
 
+.content-box-description .brand-name {
+    font-size: 10px;
+    font-weight: 100;
+}
 
+.content-box-description .description-clothes { 
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content-box-description-price {
+    position: relative;
+    bottom: 5px;
+}
+
+.content-box-description-price .actual-price{
+    color: red;
+    font-size: 12px;
+}
+
+.content-box-description-price .full-price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
