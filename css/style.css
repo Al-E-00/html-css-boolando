@@ -54,17 +54,23 @@ header .right-menu {
 
 .content {
     width: 75%;
-    margin: 2% auto;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: relative;
+
 }
 
 .content-box {
     display: flex;
     flex-direction: column;
     max-width: 340px;
+    position: relative;
+    margin-top: 40px;
 }
+
+/* description end prices */
 
 .content-box-description {
     display: flex;
@@ -96,4 +102,42 @@ header .right-menu {
 .content-box-description-price .full-price {
     font-size: 12px;
     text-decoration: line-through;
+}
+
+/* over the content */
+
+.content-box-description .hearth-favorite span {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.content-box-description .percentage-discount div {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 70px;
+    height: 25px;
+    gap: 4px;
+}
+
+.content-box-description .percentage-discount span {
+    background-color: red;
+    width: 50px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.content-box-description .percentage-discount .sustainability {
+    width: 100px;
+    background-color: green;
 }
