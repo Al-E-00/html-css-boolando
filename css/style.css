@@ -59,7 +59,6 @@ header .right-menu {
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-
 }
 
 .content-box {
@@ -68,6 +67,18 @@ header .right-menu {
     max-width: 340px;
     position: relative;
     margin-top: 40px;
+}
+
+.content .content-box .hover-view {
+    display: none;
+}
+
+.content .content-box:hover  .normal-view {
+    display: none;
+}
+
+.content .content-box:hover  .hover-view {
+    display: block;
 }
 
 /* description end prices */
@@ -115,6 +126,10 @@ header .right-menu {
     height: 35px;
     text-align: center;
     line-height: 35px;
+}
+
+.content-box-description .hearth-favorite:hover span {
+    color: red;
 }
 
 .content-box-description .percentage-discount div {
