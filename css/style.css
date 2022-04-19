@@ -141,3 +141,45 @@ header .right-menu {
     width: 100px;
     background-color: green;
 }
+
+/* footer section */
+
+footer {
+    background-color: black;
+    margin-top: 40px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    color: white;
+    height: 70px;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 10px;
+}
+
+footer ul {
+    display: flex;
+    gap: 4px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .section-footer-right svg {
+    padding-top: 5px;
+    width: 14px;
+    color: white;
+}
