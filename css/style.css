@@ -12,6 +12,9 @@ body {
 
 header {
     display: flex;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     height: 50px;
@@ -53,6 +56,7 @@ header .right-menu {
 /* content of the page with the differrents clothes */
 
 .content {
+    padding: 40px 0;
     width: 75%;
     margin: auto;
     display: flex;
